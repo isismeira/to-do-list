@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+    cinza: #9FA3A6
+    roxo 1: #8C5884
+    roxo 2: #733669
+    roxo 3: #6E278C
+    azul: #051026
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    width: 97vw;
+    height: 97vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #9FA3A6;
+}
+
+.container {
+    background-color: #8C5884;
+
+    size: fit;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+}
+
+#form__tarefa {
+    background-color: #733669;
+
+    size: fit;
+    padding: 10px;
+    margin: 10px;
+
+    border-radius: 5px;
+}
+
+#input__tarefa {
+    background-color: #9FA3A6;
+    border-radius: 20px;
+    padding:5px
+}
+
+::placeholder {
+    color: #051026;
+}
+
+#form__tarefa button {
+    background-color: #051026;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 3px 2px 1px black;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    font-weight: 600;
+
+    padding: 7px;
+    border: 1px solid #051026;
+    border-radius: 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+span:hover {
+    cursor: pointer;
+    color: red
+}
